@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react'
 
-const API_URL = 'https://picsum.photos/v2/list?limit=50'
+const API_URL = 'https://picsum.photos/v2/list?limit=30'
 
 export default function useFetchPhotos() {
     const [photos, setPhotos] = useState([])
